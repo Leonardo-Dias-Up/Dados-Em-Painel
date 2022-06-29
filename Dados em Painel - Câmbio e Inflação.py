@@ -24,7 +24,7 @@ import wbdata
 import datetime 
 # ============================
 
-df = pd.read_excel(r"D:\07. UFOP\Econometria I\Trabalho Final\Dados em Painel\03. high.xlsx")
+df = pd.read_excel(r"D:\07. UFOP\Econometria I\Trabalho Final\Dados em Painel\03. Base de Dados.xlsx")
 df.head()
 
 # Time Index
@@ -48,9 +48,6 @@ endog.head()
 exog = df.iloc[:,1:]
 exog.columns
 
-# =============================================================================
-# ANALISANDO POSSÍVEIS ERROS DO MODELO 
-# PARA ENTÃO RODAR OS DADOS EM PAINEL 
 # =============================================================================
 # MODELO OLS (Ordinary Least Square) 
 # =============================================================================
