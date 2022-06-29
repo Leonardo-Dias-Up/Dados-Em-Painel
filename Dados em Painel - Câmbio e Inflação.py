@@ -22,8 +22,10 @@ from linearmodels.panel import generate_panel_data
 import math
 import wbdata
 import datetime 
-# ============================
 
+# =============================================================================
+# Base de Dados
+# =============================================================================
 df = pd.read_excel(r"D:\07. UFOP\Econometria I\Trabalho Final\Dados em Painel\03. Base de Dados.xlsx")
 df.head()
 
