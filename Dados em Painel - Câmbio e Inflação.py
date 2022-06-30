@@ -142,7 +142,7 @@ shapiro_test.statistic
 shapiro_test.pvalue
 
 # =============================================================================
-# REGRESSÃO PARA DADOS DE PAINEL - Parei Aqui
+# REGRESSÃO PARA DADOS DE PAINEL
 # =============================================================================
 y = df.iloc[:,0]
 x1 = df.iloc[:,1]
